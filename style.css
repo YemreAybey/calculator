@@ -1,0 +1,74 @@
+body {
+	background-color:#0a87f714;
+}
+p {
+
+	text-align:center;
+	font-family:Comic Sans MS, Courier New, Impact, Georgia;
+	color:#1d0bea7d;
+}
+
+#calc {
+	width:300px;
+        height:420px;
+        border:solid 3px #0b8c6954;
+        margin:45px auto;
+	background-color:#607d8b6e;
+}
+input {
+	width:280px;
+        height:50px;
+        border:solid 1px #86a902a3;
+        margin-top:7px;
+        margin-left:8px;
+	background-color:white;
+	text-align:right;
+	font-weight:bold;
+	font-size:30px;
+	color:#2395dcc2;
+}
+.topBtns {
+	margin-top:12px;
+	margin-left:18px;
+        width:280px;
+	height:50px;
+}
+.top {
+
+	width:85px;
+	height:40px;
+	font-weight:bold;
+}
+.btnContainer {
+
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+        margin-left:12px;
+        margin-right:12px;
+	margin-top:0px;
+	padding:10px;
+	grid-gap:10px;
+	
+}
+.btns {
+
+	padding:17px;
+	font-size:18px;
+	font-weight:bold;
+}
+.b13{
+
+	grid-column-start:1;
+	grid-column-end:3;
+}
+
+button:hover {
+
+	background-color:#f3e52133;
+}
+
+.big {
+	
+	font-size:20px;
+	color:#ff0000a3;	
+}
